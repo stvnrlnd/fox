@@ -4,18 +4,27 @@
     <meta charset="utf-8">
     <title>Fox</title>
     <link rel="stylesheet" href="theme/styles/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+      body{
+        padding-top: 70px;
+        background-color: #e8e8e8;
+      }
+    </style>
   </head>
-  <body>
+  <body ng-app="fox">
     <div class="">
-      <header>
-
+      <header ng-controller="generalController">
+        <section class="">
+          <article class="text-center">
+            <h1>Hello, {{beautiful}}!</h1>
+          </article>
+        </section>
       </header>
     </div>
-    <div class="">
+    <div class="container-fluid">
       <main>
         <section>
           <article class="">
-            <h1>Hello, beautiful</h1>
           </article>
         </section>
       </main>
