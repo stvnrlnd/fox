@@ -13,19 +13,29 @@
   </head>
   <body ng-app="fox">
     <div class="">
-      <header ng-controller="generalController">
-        <section class="">
-          <article class="text-center">
-            <h1>{{user.firstName}} {{user.lastName}}</h1>
-          </article>
-        </section>
+      <header>
+
       </header>
     </div>
     <div class="container-fluid">
-      <main>
-        <section>
-          <article class="">
-            {{user.bio}}
+      <main ng-controller="generalController">
+        <section class="">
+          <article class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-4">
+            <img ng-src="{{user.image}}" class="img-responsive img-circle" alt="" />
+          </article>
+          <article class="text-center">
+            <div class="col-xs-12">
+              <h1>{{user.firstName}} {{user.lastName}}</h1>
+              <h3>{{user.occupation}}</h3>
+              <h3><small>{{user.location}}</small></h3>
+              <ul class="list-inline">
+                <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
           </article>
         </section>
       </main>

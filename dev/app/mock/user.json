@@ -1,10 +1,9 @@
 {
   "firstName" : "Steven",
   "lastName" : "Roland",
-  "bio" : "",
-  "" : "",
-  "" : "",
-  "image" : "",
+  "location" : "Tallahassee, Florida",
+  "occupation" : "Full Stack Web Developer",
+  "image" : "media/steven.jpg",
   "social" : {
     "facebook" : "",
     "twitter" : "",
