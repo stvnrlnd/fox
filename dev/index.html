@@ -19,15 +19,15 @@
     </div>
     <div class="container-fluid">
       <main ng-controller="generalController">
-        <section class="">
+        <section class="row">
           <article class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-4">
-            <img ng-src="{{user.image}}" class="img-responsive img-circle" alt="" />
+            <img ng-src="{{userBasic.image}}" class="img-responsive img-circle" alt="" />
           </article>
           <article class="text-center">
             <div class="col-xs-12">
-              <h1>{{user.firstName}} {{user.lastName}}</h1>
-              <h3>{{user.occupation}}</h3>
-              <h3><small>{{user.location}}</small></h3>
+              <h1>{{userBasic.firstName}} {{userBasic.lastName}}</h1>
+              <h3>{{userBasic.occupation}}</h3>
+              <h3><small>{{userBasic.location}}</small></h3>
               <ul class="list-inline">
                 <li><a href=""><i class="fa fa-envelope"></i></a></li>
                 <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -37,6 +37,108 @@
               </ul>
             </div>
           </article>
+        </section>
+        <section class="row text-center">
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.HTML}}</h1>
+              </main>
+              <footer class="panel-footer">
+                HTML
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.CSS}}</h1>
+              </main>
+              <footer class="panel-footer">
+                CSS
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.Design}}</h1>
+              </main>
+              <footer class="panel-footer">
+                Design
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.JavaScript}}</h1>
+              </main>
+              <footer class="panel-footer">
+                JavaScript
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.PHP}}</h1>
+              </main>
+              <footer class="panel-footer">
+                PHP
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.Development}}</h1>
+              </main>
+              <footer class="panel-footer">
+                Development Tools
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.Business}}</h1>
+              </main>
+              <footer class="panel-footer">
+                Business
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.Digital}}</h1>
+              </main>
+              <footer class="panel-footer">
+                Digital Literacy
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.C}}</h1>
+              </main>
+              <footer class="panel-footer">
+                C#
+              </footer>
+            </article>
+          </div>
+          <div class="col-md-2">
+            <article class="panel panel-default">
+              <main class="panel-body">
+                <h1>{{userTreehouse.points.Databases}}</h1>
+              </main>
+              <footer class="panel-footer">
+                Databases
+              </footer>
+            </article>
+          </div>
         </section>
       </main>
     </div>
