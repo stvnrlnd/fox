@@ -47,4 +47,4 @@ Temporary Items
 .apdisk
 
 # Custom directories and files to ignore
-/node_modules
+/v1/node_modules
